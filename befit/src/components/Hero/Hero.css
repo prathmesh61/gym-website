@@ -1,0 +1,54 @@
+.hero {
+    padding: 2rem;
+    position: relative;
+
+}
+
+.hero_wrapper {
+    position: relative;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 2rem;
+}
+
+.hero_content span {
+    background-color: var(--main-clr);
+    padding: .1rem .5rem;
+    color: var(--white-clr);
+    font-size: 1rem;
+}
+
+.hero_content h1 {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.hero_content button {
+    margin-top: 1rem;
+}
+
+
+
+.hero_img img {
+    height: 50rem;
+    margin: 0 auto;
+
+
+}
+
+.bg-shape {
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    color: var(--main-clr);
+    border-radius: 4rem;
+    top: 4rem;
+    right: 17rem;
+    background-color: var(--main-clr);
+    z-index: -10;
+    transform: rotate(-15deg);
+}

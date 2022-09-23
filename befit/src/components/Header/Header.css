@@ -1,0 +1,36 @@
+.navbar {
+    padding: 2rem;
+}
+
+.logo>span {
+    font-size: 2.2rem;
+    color: var(--white-clr);
+    background-color: var(--main-clr);
+    font-weight: 700;
+    padding: .1rem 2rem;
+}
+
+.navbar_wrapper {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 100%;
+    gap: 6rem;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.nav_list li a {
+    color: var(--text-clr);
+    font-size: 1.1rem;
+    transition: 300ms ease;
+}
+
+.nav_list li a:hover {
+    color: var(--main-clr);
+}
